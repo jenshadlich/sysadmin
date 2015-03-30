@@ -8,5 +8,5 @@ cd sysadmin
 sudo su
 chmod +x scripts/rpi/install_collectd.sh
 ./scripts/rpi/install_collectd.sh
-logout
+exit
 ```
