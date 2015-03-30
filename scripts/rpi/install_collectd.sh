@@ -10,5 +10,8 @@ echo 'tmpfs    /var/lib/collectd/    tmpfs    defaults,size=16M      0       0' 
 # copy collectd.conf
 cp templates/collectd.conf /etc/collectd/collectd.conf
 
+HOSTNAME="$(hostname)"
+sed -i "s/piXX/$HOSTNAME/g" /etc/collectd/collectd.conf
+ 
 # start
 service collectd start
