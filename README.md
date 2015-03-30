@@ -1,7 +1,7 @@
 # 
 
+h3. Install + configure collectd on my Raspberry Pi
 
-* Install + configure collectd on my Raspberry Pi
 ```
 git clone https://github.com/jenshadlich/sysadmin.git
 cd sysadmin
