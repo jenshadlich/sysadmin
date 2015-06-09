@@ -1,0 +1,2 @@
+# delete all .svn folders
+rm -rvf `find . -type d -name .svn`
