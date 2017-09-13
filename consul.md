@@ -2,7 +2,7 @@
 
 ## Redis
 
-Copy to /etc/consul.d/client/redis.json
+Copy to `/etc/consul.d/client/redis.json`. `consul reload`.
 
 ```
 {
