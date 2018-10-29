@@ -9,3 +9,10 @@ sudo chmod +x scripts/rpi/install_collectd.sh
 sudo ./scripts/rpi/install_collectd.sh
 
 ```
+
+# docker stuff
+```
+sudo apt-get install docker.io
+sudo apt-get install docker-compose
+sudo usermod -aG docker pi
+```
