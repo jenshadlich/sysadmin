@@ -3,7 +3,7 @@ Intended only for a quick test, not for permanent use.
 
 ## Prerequisites
 * running k3s
-* on remote host that is reachable via ssh
+* on headless host that is only reachable via ssh
 
 ## Get the k8s dashboard
 
@@ -62,6 +62,6 @@ On the remote machine:
 ssh -N -L localhost:8001:localhost:8001 <user>@<k3s-host>
 ```
 
-## Login finally
+## Login, finally
 
-Navigate to http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/#/login and enter the value of the token.
+Navigate to http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/#/login and enter the value of the token that was created and copied before.
